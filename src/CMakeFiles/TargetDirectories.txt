@@ -1,0 +1,2 @@
+/home/ken/KenHandler/src/CMakeFiles/KenHttp.dir
+/home/ken/KenHandler/src/CMakeFiles/KenHttpTest.dir

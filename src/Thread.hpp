@@ -19,11 +19,7 @@ class Thread
     void Detach();
 
     template<class Function, class... Args>
-    auto Run(Function&& function, Args&&... args) -> std::future<typename std::result_of<Function(Args...)>::type>;
-
-
-    template<class Function, class... Args>
-    auto Enqueue(Function&& function, Args&&... args) ->
+    auto Run(Function&& function, Args&&... args) ->
             std::future<typename std::result_of<Function(Args...)>::type>
     {
         //NOTE： class result_of<F(ArgTypes...)> ; 在编译时推断出函数调用的返回类型
@@ -35,8 +31,10 @@ class Thread
         //异步地调用。 它的返回值和抛出的异常存在一个shared object中， 这个shared object可以通过std::future对象访问。
         auto task = std::make_shared<std::packaged_task<returnType()>>(
             std::bind(std::forward<Function>(function), std::forward<Args>(args)...));
-
-        m_thread = std::make_shared<std::thread>(new std::thread((*task)()));
+        std::thread* tp = new std::thread([task] {
+                (*task)();
+            });
+        m_thread = std::shared_ptr<std::thread>(tp);
         return task->get_future();
     }
     
