@@ -35,7 +35,9 @@ void Looper::loopMessage() {
 }
 
 void Looper::loop() {
+    
     while (true) {
+        std::cout << "LoopThreadId: " << std::this_thread::get_id() << std::endl;
         std::cout << "loop()" << std::endl;
         std::unique_lock<std::mutex> lk(this->m_mutex);
         this->m_condition.wait(lk, [&] { return !m_queue.empty();});

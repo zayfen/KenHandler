@@ -72,9 +72,32 @@ CMakeFiles/KenHttpTest.dir/Thread.cpp.o.provides: CMakeFiles/KenHttpTest.dir/Thr
 
 CMakeFiles/KenHttpTest.dir/Thread.cpp.o.provides.build: CMakeFiles/KenHttpTest.dir/Thread.cpp.o
 
+CMakeFiles/KenHttpTest.dir/Queue.cpp.o: CMakeFiles/KenHttpTest.dir/flags.make
+CMakeFiles/KenHttpTest.dir/Queue.cpp.o: Queue.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/KenHttpTest.dir/Queue.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/KenHttpTest.dir/Queue.cpp.o -c /home/ken/KenHandler/src/Queue.cpp
+
+CMakeFiles/KenHttpTest.dir/Queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KenHttpTest.dir/Queue.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ken/KenHandler/src/Queue.cpp > CMakeFiles/KenHttpTest.dir/Queue.cpp.i
+
+CMakeFiles/KenHttpTest.dir/Queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KenHttpTest.dir/Queue.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ken/KenHandler/src/Queue.cpp -o CMakeFiles/KenHttpTest.dir/Queue.cpp.s
+
+CMakeFiles/KenHttpTest.dir/Queue.cpp.o.requires:
+.PHONY : CMakeFiles/KenHttpTest.dir/Queue.cpp.o.requires
+
+CMakeFiles/KenHttpTest.dir/Queue.cpp.o.provides: CMakeFiles/KenHttpTest.dir/Queue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/Queue.cpp.o.provides.build
+.PHONY : CMakeFiles/KenHttpTest.dir/Queue.cpp.o.provides
+
+CMakeFiles/KenHttpTest.dir/Queue.cpp.o.provides.build: CMakeFiles/KenHttpTest.dir/Queue.cpp.o
+
 CMakeFiles/KenHttpTest.dir/MessageListener.cpp.o: CMakeFiles/KenHttpTest.dir/flags.make
 CMakeFiles/KenHttpTest.dir/MessageListener.cpp.o: MessageListener.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/KenHttpTest.dir/MessageListener.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/KenHttpTest.dir/MessageListener.cpp.o -c /home/ken/KenHandler/src/MessageListener.cpp
 
@@ -97,7 +120,7 @@ CMakeFiles/KenHttpTest.dir/MessageListener.cpp.o.provides.build: CMakeFiles/KenH
 
 CMakeFiles/KenHttpTest.dir/mainTest.cpp.o: CMakeFiles/KenHttpTest.dir/flags.make
 CMakeFiles/KenHttpTest.dir/mainTest.cpp.o: mainTest.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/KenHttpTest.dir/mainTest.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/KenHttpTest.dir/mainTest.cpp.o -c /home/ken/KenHandler/src/mainTest.cpp
 
@@ -120,7 +143,7 @@ CMakeFiles/KenHttpTest.dir/mainTest.cpp.o.provides.build: CMakeFiles/KenHttpTest
 
 CMakeFiles/KenHttpTest.dir/Handler.cpp.o: CMakeFiles/KenHttpTest.dir/flags.make
 CMakeFiles/KenHttpTest.dir/Handler.cpp.o: Handler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/KenHttpTest.dir/Handler.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/KenHttpTest.dir/Handler.cpp.o -c /home/ken/KenHandler/src/Handler.cpp
 
@@ -141,9 +164,32 @@ CMakeFiles/KenHttpTest.dir/Handler.cpp.o.provides: CMakeFiles/KenHttpTest.dir/Ha
 
 CMakeFiles/KenHttpTest.dir/Handler.cpp.o.provides.build: CMakeFiles/KenHttpTest.dir/Handler.cpp.o
 
+CMakeFiles/KenHttpTest.dir/Message.cpp.o: CMakeFiles/KenHttpTest.dir/flags.make
+CMakeFiles/KenHttpTest.dir/Message.cpp.o: Message.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/KenHttpTest.dir/Message.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/KenHttpTest.dir/Message.cpp.o -c /home/ken/KenHandler/src/Message.cpp
+
+CMakeFiles/KenHttpTest.dir/Message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KenHttpTest.dir/Message.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ken/KenHandler/src/Message.cpp > CMakeFiles/KenHttpTest.dir/Message.cpp.i
+
+CMakeFiles/KenHttpTest.dir/Message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KenHttpTest.dir/Message.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ken/KenHandler/src/Message.cpp -o CMakeFiles/KenHttpTest.dir/Message.cpp.s
+
+CMakeFiles/KenHttpTest.dir/Message.cpp.o.requires:
+.PHONY : CMakeFiles/KenHttpTest.dir/Message.cpp.o.requires
+
+CMakeFiles/KenHttpTest.dir/Message.cpp.o.provides: CMakeFiles/KenHttpTest.dir/Message.cpp.o.requires
+	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/Message.cpp.o.provides.build
+.PHONY : CMakeFiles/KenHttpTest.dir/Message.cpp.o.provides
+
+CMakeFiles/KenHttpTest.dir/Message.cpp.o.provides.build: CMakeFiles/KenHttpTest.dir/Message.cpp.o
+
 CMakeFiles/KenHttpTest.dir/ThreadPool.cpp.o: CMakeFiles/KenHttpTest.dir/flags.make
 CMakeFiles/KenHttpTest.dir/ThreadPool.cpp.o: ThreadPool.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/KenHttpTest.dir/ThreadPool.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/KenHttpTest.dir/ThreadPool.cpp.o -c /home/ken/KenHandler/src/ThreadPool.cpp
 
@@ -166,7 +212,7 @@ CMakeFiles/KenHttpTest.dir/ThreadPool.cpp.o.provides.build: CMakeFiles/KenHttpTe
 
 CMakeFiles/KenHttpTest.dir/Looper.cpp.o: CMakeFiles/KenHttpTest.dir/flags.make
 CMakeFiles/KenHttpTest.dir/Looper.cpp.o: Looper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/KenHttpTest.dir/Looper.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/KenHttpTest.dir/Looper.cpp.o -c /home/ken/KenHandler/src/Looper.cpp
 
@@ -190,9 +236,11 @@ CMakeFiles/KenHttpTest.dir/Looper.cpp.o.provides.build: CMakeFiles/KenHttpTest.d
 # Object files for target KenHttpTest
 KenHttpTest_OBJECTS = \
 "CMakeFiles/KenHttpTest.dir/Thread.cpp.o" \
+"CMakeFiles/KenHttpTest.dir/Queue.cpp.o" \
 "CMakeFiles/KenHttpTest.dir/MessageListener.cpp.o" \
 "CMakeFiles/KenHttpTest.dir/mainTest.cpp.o" \
 "CMakeFiles/KenHttpTest.dir/Handler.cpp.o" \
+"CMakeFiles/KenHttpTest.dir/Message.cpp.o" \
 "CMakeFiles/KenHttpTest.dir/ThreadPool.cpp.o" \
 "CMakeFiles/KenHttpTest.dir/Looper.cpp.o"
 
@@ -200,9 +248,11 @@ KenHttpTest_OBJECTS = \
 KenHttpTest_EXTERNAL_OBJECTS =
 
 /home/ken/KenHandler/bin/KenHttpTest: CMakeFiles/KenHttpTest.dir/Thread.cpp.o
+/home/ken/KenHandler/bin/KenHttpTest: CMakeFiles/KenHttpTest.dir/Queue.cpp.o
 /home/ken/KenHandler/bin/KenHttpTest: CMakeFiles/KenHttpTest.dir/MessageListener.cpp.o
 /home/ken/KenHandler/bin/KenHttpTest: CMakeFiles/KenHttpTest.dir/mainTest.cpp.o
 /home/ken/KenHandler/bin/KenHttpTest: CMakeFiles/KenHttpTest.dir/Handler.cpp.o
+/home/ken/KenHandler/bin/KenHttpTest: CMakeFiles/KenHttpTest.dir/Message.cpp.o
 /home/ken/KenHandler/bin/KenHttpTest: CMakeFiles/KenHttpTest.dir/ThreadPool.cpp.o
 /home/ken/KenHandler/bin/KenHttpTest: CMakeFiles/KenHttpTest.dir/Looper.cpp.o
 /home/ken/KenHandler/bin/KenHttpTest: CMakeFiles/KenHttpTest.dir/build.make
@@ -215,9 +265,11 @@ CMakeFiles/KenHttpTest.dir/build: /home/ken/KenHandler/bin/KenHttpTest
 .PHONY : CMakeFiles/KenHttpTest.dir/build
 
 CMakeFiles/KenHttpTest.dir/requires: CMakeFiles/KenHttpTest.dir/Thread.cpp.o.requires
+CMakeFiles/KenHttpTest.dir/requires: CMakeFiles/KenHttpTest.dir/Queue.cpp.o.requires
 CMakeFiles/KenHttpTest.dir/requires: CMakeFiles/KenHttpTest.dir/MessageListener.cpp.o.requires
 CMakeFiles/KenHttpTest.dir/requires: CMakeFiles/KenHttpTest.dir/mainTest.cpp.o.requires
 CMakeFiles/KenHttpTest.dir/requires: CMakeFiles/KenHttpTest.dir/Handler.cpp.o.requires
+CMakeFiles/KenHttpTest.dir/requires: CMakeFiles/KenHttpTest.dir/Message.cpp.o.requires
 CMakeFiles/KenHttpTest.dir/requires: CMakeFiles/KenHttpTest.dir/ThreadPool.cpp.o.requires
 CMakeFiles/KenHttpTest.dir/requires: CMakeFiles/KenHttpTest.dir/Looper.cpp.o.requires
 .PHONY : CMakeFiles/KenHttpTest.dir/requires

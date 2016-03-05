@@ -40,6 +40,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/KenHttp.dir/DependInfo.cmake"
-  "CMakeFiles/KenHttpTest.dir/DependInfo.cmake"
+  "CMakeFiles/KenHandlerTest.dir/DependInfo.cmake"
+  "CMakeFiles/KenHandler.dir/DependInfo.cmake"
   )

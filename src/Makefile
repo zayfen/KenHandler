@@ -102,38 +102,38 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named KenHttp
+# Target rules for targets named KenHandler
 
 # Build rule for target.
-KenHttp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 KenHttp
-.PHONY : KenHttp
+KenHandler: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 KenHandler
+.PHONY : KenHandler
 
 # fast build rule for target.
-KenHttp/fast:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/build
-.PHONY : KenHttp/fast
+KenHandler/fast:
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/build
+.PHONY : KenHandler/fast
 
 #=============================================================================
-# Target rules for targets named KenHttpTest
+# Target rules for targets named KenHandlerTest
 
 # Build rule for target.
-KenHttpTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 KenHttpTest
-.PHONY : KenHttpTest
+KenHandlerTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 KenHandlerTest
+.PHONY : KenHandlerTest
 
 # fast build rule for target.
-KenHttpTest/fast:
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/build
-.PHONY : KenHttpTest/fast
+KenHandlerTest/fast:
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/build
+.PHONY : KenHandlerTest/fast
 
 Handler.o: Handler.cpp.o
 .PHONY : Handler.o
 
 # target to build an object file
 Handler.cpp.o:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/Handler.cpp.o
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/Handler.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Handler.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Handler.cpp.o
 .PHONY : Handler.cpp.o
 
 Handler.i: Handler.cpp.i
@@ -141,8 +141,8 @@ Handler.i: Handler.cpp.i
 
 # target to preprocess a source file
 Handler.cpp.i:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/Handler.cpp.i
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/Handler.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Handler.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Handler.cpp.i
 .PHONY : Handler.cpp.i
 
 Handler.s: Handler.cpp.s
@@ -150,8 +150,8 @@ Handler.s: Handler.cpp.s
 
 # target to generate assembly for a file
 Handler.cpp.s:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/Handler.cpp.s
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/Handler.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Handler.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Handler.cpp.s
 .PHONY : Handler.cpp.s
 
 Looper.o: Looper.cpp.o
@@ -159,8 +159,8 @@ Looper.o: Looper.cpp.o
 
 # target to build an object file
 Looper.cpp.o:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/Looper.cpp.o
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/Looper.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Looper.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Looper.cpp.o
 .PHONY : Looper.cpp.o
 
 Looper.i: Looper.cpp.i
@@ -168,8 +168,8 @@ Looper.i: Looper.cpp.i
 
 # target to preprocess a source file
 Looper.cpp.i:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/Looper.cpp.i
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/Looper.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Looper.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Looper.cpp.i
 .PHONY : Looper.cpp.i
 
 Looper.s: Looper.cpp.s
@@ -177,17 +177,44 @@ Looper.s: Looper.cpp.s
 
 # target to generate assembly for a file
 Looper.cpp.s:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/Looper.cpp.s
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/Looper.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Looper.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Looper.cpp.s
 .PHONY : Looper.cpp.s
+
+Message.o: Message.cpp.o
+.PHONY : Message.o
+
+# target to build an object file
+Message.cpp.o:
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Message.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Message.cpp.o
+.PHONY : Message.cpp.o
+
+Message.i: Message.cpp.i
+.PHONY : Message.i
+
+# target to preprocess a source file
+Message.cpp.i:
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Message.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Message.cpp.i
+.PHONY : Message.cpp.i
+
+Message.s: Message.cpp.s
+.PHONY : Message.s
+
+# target to generate assembly for a file
+Message.cpp.s:
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Message.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Message.cpp.s
+.PHONY : Message.cpp.s
 
 MessageListener.o: MessageListener.cpp.o
 .PHONY : MessageListener.o
 
 # target to build an object file
 MessageListener.cpp.o:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/MessageListener.cpp.o
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/MessageListener.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/MessageListener.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/MessageListener.cpp.o
 .PHONY : MessageListener.cpp.o
 
 MessageListener.i: MessageListener.cpp.i
@@ -195,8 +222,8 @@ MessageListener.i: MessageListener.cpp.i
 
 # target to preprocess a source file
 MessageListener.cpp.i:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/MessageListener.cpp.i
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/MessageListener.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/MessageListener.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/MessageListener.cpp.i
 .PHONY : MessageListener.cpp.i
 
 MessageListener.s: MessageListener.cpp.s
@@ -204,17 +231,44 @@ MessageListener.s: MessageListener.cpp.s
 
 # target to generate assembly for a file
 MessageListener.cpp.s:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/MessageListener.cpp.s
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/MessageListener.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/MessageListener.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/MessageListener.cpp.s
 .PHONY : MessageListener.cpp.s
+
+Queue.o: Queue.cpp.o
+.PHONY : Queue.o
+
+# target to build an object file
+Queue.cpp.o:
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Queue.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Queue.cpp.o
+.PHONY : Queue.cpp.o
+
+Queue.i: Queue.cpp.i
+.PHONY : Queue.i
+
+# target to preprocess a source file
+Queue.cpp.i:
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Queue.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Queue.cpp.i
+.PHONY : Queue.cpp.i
+
+Queue.s: Queue.cpp.s
+.PHONY : Queue.s
+
+# target to generate assembly for a file
+Queue.cpp.s:
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Queue.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Queue.cpp.s
+.PHONY : Queue.cpp.s
 
 Thread.o: Thread.cpp.o
 .PHONY : Thread.o
 
 # target to build an object file
 Thread.cpp.o:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/Thread.cpp.o
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/Thread.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Thread.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Thread.cpp.o
 .PHONY : Thread.cpp.o
 
 Thread.i: Thread.cpp.i
@@ -222,8 +276,8 @@ Thread.i: Thread.cpp.i
 
 # target to preprocess a source file
 Thread.cpp.i:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/Thread.cpp.i
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/Thread.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Thread.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Thread.cpp.i
 .PHONY : Thread.cpp.i
 
 Thread.s: Thread.cpp.s
@@ -231,8 +285,8 @@ Thread.s: Thread.cpp.s
 
 # target to generate assembly for a file
 Thread.cpp.s:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/Thread.cpp.s
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/Thread.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/Thread.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/Thread.cpp.s
 .PHONY : Thread.cpp.s
 
 ThreadPool.o: ThreadPool.cpp.o
@@ -240,8 +294,8 @@ ThreadPool.o: ThreadPool.cpp.o
 
 # target to build an object file
 ThreadPool.cpp.o:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/ThreadPool.cpp.o
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/ThreadPool.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/ThreadPool.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/ThreadPool.cpp.o
 .PHONY : ThreadPool.cpp.o
 
 ThreadPool.i: ThreadPool.cpp.i
@@ -249,8 +303,8 @@ ThreadPool.i: ThreadPool.cpp.i
 
 # target to preprocess a source file
 ThreadPool.cpp.i:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/ThreadPool.cpp.i
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/ThreadPool.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/ThreadPool.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/ThreadPool.cpp.i
 .PHONY : ThreadPool.cpp.i
 
 ThreadPool.s: ThreadPool.cpp.s
@@ -258,8 +312,8 @@ ThreadPool.s: ThreadPool.cpp.s
 
 # target to generate assembly for a file
 ThreadPool.cpp.s:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/ThreadPool.cpp.s
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/ThreadPool.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/ThreadPool.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/ThreadPool.cpp.s
 .PHONY : ThreadPool.cpp.s
 
 mainTest.o: mainTest.cpp.o
@@ -267,8 +321,8 @@ mainTest.o: mainTest.cpp.o
 
 # target to build an object file
 mainTest.cpp.o:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/mainTest.cpp.o
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/mainTest.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/mainTest.cpp.o
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/mainTest.cpp.o
 .PHONY : mainTest.cpp.o
 
 mainTest.i: mainTest.cpp.i
@@ -276,8 +330,8 @@ mainTest.i: mainTest.cpp.i
 
 # target to preprocess a source file
 mainTest.cpp.i:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/mainTest.cpp.i
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/mainTest.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/mainTest.cpp.i
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/mainTest.cpp.i
 .PHONY : mainTest.cpp.i
 
 mainTest.s: mainTest.cpp.s
@@ -285,8 +339,8 @@ mainTest.s: mainTest.cpp.s
 
 # target to generate assembly for a file
 mainTest.cpp.s:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/mainTest.cpp.s
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/mainTest.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/mainTest.cpp.s
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/mainTest.cpp.s
 .PHONY : mainTest.cpp.s
 
 # Help Target
@@ -297,17 +351,23 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... KenHttp"
-	@echo "... KenHttpTest"
+	@echo "... KenHandlerTest"
+	@echo "... KenHandler"
 	@echo "... Handler.o"
 	@echo "... Handler.i"
 	@echo "... Handler.s"
 	@echo "... Looper.o"
 	@echo "... Looper.i"
 	@echo "... Looper.s"
+	@echo "... Message.o"
+	@echo "... Message.i"
+	@echo "... Message.s"
 	@echo "... MessageListener.o"
 	@echo "... MessageListener.i"
 	@echo "... MessageListener.s"
+	@echo "... Queue.o"
+	@echo "... Queue.i"
+	@echo "... Queue.s"
 	@echo "... Thread.o"
 	@echo "... Thread.i"
 	@echo "... Thread.s"

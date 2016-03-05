@@ -38,11 +38,9 @@ void Handler::PostMessage(const Message& message) {
 
 void Handler::PostMessageDelay(const Message& message, const int ms) {
 
-    m_threadPool->Enqueue([&] {
+    m_threadPool->Enqueue([&, ms] {
             std::cout << "PostMessageDelay: " << std::endl;
-            //std::chrono::milliseconds duration(ms);
-            // std::chrono::microseconds usDuration(ms * 1000);
-            std::this_thread::sleep_for(std::chrono::milliseconds(2000)); // FIXME: '20000' is ok , but 'ms' not works
+            std::this_thread::sleep_for(std::chrono::milliseconds(ms)); 
 
             if (m_looper != nullptr) {
                 m_looper->AddMessage(message);

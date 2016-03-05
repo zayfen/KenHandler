@@ -23,6 +23,7 @@ void doSomething(std::string s, std::string to) {
 class MyMessageListener : public MessageListener {
   public:
     void HandleMessage(const Message& message) override {
+        std::cout << "HandlerThreadId: " << std::this_thread::get_id() << std::endl;
         switch (message.messageId) {
             case 1:
                 std::cout << "1: " << message.messageDesc << std::endl;
@@ -41,6 +42,8 @@ class MyMessageListener : public MessageListener {
 
 int main(void)
 {
+    std::cout << "MainThreadId: " << std::this_thread::get_id() << std::endl;
+    
     std::shared_ptr<Looper> looper(new Looper());
     std::shared_ptr<MessageListener> listener(new MyMessageListener());
 
@@ -50,17 +53,13 @@ int main(void)
     h.PostMessage(m1);
 
     Message m2 (2, "test 2");
-    h.PostMessageDelay(m2, 2);
+    h.PostMessageDelay(m2, 2000);
 
     Message m3 (3, "test 3");
     h.PostMessage(m3);
 
-    // h.PostRunable([&] {
-    //         std::cout << "post runnale" << std::endl;
-    //     });
-    
+    while (true) {}
     std::cout << "return" << std::endl;
-    while(true) {}
 
     return 0;
 }

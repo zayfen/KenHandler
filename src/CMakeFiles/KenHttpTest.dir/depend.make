@@ -15,7 +15,11 @@ CMakeFiles/KenHttpTest.dir/Looper.cpp.o: Message.hpp
 CMakeFiles/KenHttpTest.dir/Looper.cpp.o: MessageListener.hpp
 CMakeFiles/KenHttpTest.dir/Looper.cpp.o: Thread.hpp
 
+CMakeFiles/KenHttpTest.dir/Message.cpp.o: Message.cpp
+
 CMakeFiles/KenHttpTest.dir/MessageListener.cpp.o: MessageListener.cpp
+
+CMakeFiles/KenHttpTest.dir/Queue.cpp.o: Queue.cpp
 
 CMakeFiles/KenHttpTest.dir/Thread.cpp.o: Thread.cpp
 CMakeFiles/KenHttpTest.dir/Thread.cpp.o: Thread.hpp

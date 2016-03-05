@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/KenHttp.dir/Thread.cpp.o"
+  "CMakeFiles/KenHttp.dir/Queue.cpp.o"
   "CMakeFiles/KenHttp.dir/MessageListener.cpp.o"
   "CMakeFiles/KenHttp.dir/mainTest.cpp.o"
   "CMakeFiles/KenHttp.dir/Handler.cpp.o"
+  "CMakeFiles/KenHttp.dir/Message.cpp.o"
   "CMakeFiles/KenHttp.dir/ThreadPool.cpp.o"
   "CMakeFiles/KenHttp.dir/Looper.cpp.o"
   "/home/ken/KenHandler/lib/libKenHttp.pdb"

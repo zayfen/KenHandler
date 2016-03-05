@@ -53,73 +53,73 @@ CMAKE_SOURCE_DIR = /home/ken/KenHandler/src
 CMAKE_BINARY_DIR = /home/ken/KenHandler/src
 
 #=============================================================================
-# Target rules for target CMakeFiles/KenHttp.dir
+# Target rules for target CMakeFiles/KenHandler.dir
 
 # All Build rule for target.
-CMakeFiles/KenHttp.dir/all:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/depend
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles  1 2 3 4 5 6
-	@echo "Built target KenHttp"
-.PHONY : CMakeFiles/KenHttp.dir/all
+CMakeFiles/KenHandler.dir/all:
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/depend
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles  1 2 3 4 5 6 7 8
+	@echo "Built target KenHandler"
+.PHONY : CMakeFiles/KenHandler.dir/all
 
 # Include target in all.
-all: CMakeFiles/KenHttp.dir/all
+all: CMakeFiles/KenHandler.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/KenHttp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ken/KenHandler/src/CMakeFiles 6
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/KenHttp.dir/all
+CMakeFiles/KenHandler.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ken/KenHandler/src/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/KenHandler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ken/KenHandler/src/CMakeFiles 0
-.PHONY : CMakeFiles/KenHttp.dir/rule
+.PHONY : CMakeFiles/KenHandler.dir/rule
 
 # Convenience name for target.
-KenHttp: CMakeFiles/KenHttp.dir/rule
-.PHONY : KenHttp
+KenHandler: CMakeFiles/KenHandler.dir/rule
+.PHONY : KenHandler
 
 # clean rule for target.
-CMakeFiles/KenHttp.dir/clean:
-	$(MAKE) -f CMakeFiles/KenHttp.dir/build.make CMakeFiles/KenHttp.dir/clean
-.PHONY : CMakeFiles/KenHttp.dir/clean
+CMakeFiles/KenHandler.dir/clean:
+	$(MAKE) -f CMakeFiles/KenHandler.dir/build.make CMakeFiles/KenHandler.dir/clean
+.PHONY : CMakeFiles/KenHandler.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/KenHttp.dir/clean
+clean: CMakeFiles/KenHandler.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/KenHttpTest.dir
+# Target rules for target CMakeFiles/KenHandlerTest.dir
 
 # All Build rule for target.
-CMakeFiles/KenHttpTest.dir/all:
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/depend
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles  7 8 9 10 11 12
-	@echo "Built target KenHttpTest"
-.PHONY : CMakeFiles/KenHttpTest.dir/all
+CMakeFiles/KenHandlerTest.dir/all:
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/depend
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ken/KenHandler/src/CMakeFiles  9 10 11 12 13 14 15 16
+	@echo "Built target KenHandlerTest"
+.PHONY : CMakeFiles/KenHandlerTest.dir/all
 
 # Include target in all.
-all: CMakeFiles/KenHttpTest.dir/all
+all: CMakeFiles/KenHandlerTest.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/KenHttpTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ken/KenHandler/src/CMakeFiles 6
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/KenHttpTest.dir/all
+CMakeFiles/KenHandlerTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ken/KenHandler/src/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/KenHandlerTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ken/KenHandler/src/CMakeFiles 0
-.PHONY : CMakeFiles/KenHttpTest.dir/rule
+.PHONY : CMakeFiles/KenHandlerTest.dir/rule
 
 # Convenience name for target.
-KenHttpTest: CMakeFiles/KenHttpTest.dir/rule
-.PHONY : KenHttpTest
+KenHandlerTest: CMakeFiles/KenHandlerTest.dir/rule
+.PHONY : KenHandlerTest
 
 # clean rule for target.
-CMakeFiles/KenHttpTest.dir/clean:
-	$(MAKE) -f CMakeFiles/KenHttpTest.dir/build.make CMakeFiles/KenHttpTest.dir/clean
-.PHONY : CMakeFiles/KenHttpTest.dir/clean
+CMakeFiles/KenHandlerTest.dir/clean:
+	$(MAKE) -f CMakeFiles/KenHandlerTest.dir/build.make CMakeFiles/KenHandlerTest.dir/clean
+.PHONY : CMakeFiles/KenHandlerTest.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/KenHttpTest.dir/clean
+clean: CMakeFiles/KenHandlerTest.dir/clean
 .PHONY : clean
 
 #=============================================================================

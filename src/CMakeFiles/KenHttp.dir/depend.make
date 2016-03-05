@@ -15,7 +15,11 @@ CMakeFiles/KenHttp.dir/Looper.cpp.o: Message.hpp
 CMakeFiles/KenHttp.dir/Looper.cpp.o: MessageListener.hpp
 CMakeFiles/KenHttp.dir/Looper.cpp.o: Thread.hpp
 
+CMakeFiles/KenHttp.dir/Message.cpp.o: Message.cpp
+
 CMakeFiles/KenHttp.dir/MessageListener.cpp.o: MessageListener.cpp
+
+CMakeFiles/KenHttp.dir/Queue.cpp.o: Queue.cpp
 
 CMakeFiles/KenHttp.dir/Thread.cpp.o: Thread.cpp
 CMakeFiles/KenHttp.dir/Thread.cpp.o: Thread.hpp

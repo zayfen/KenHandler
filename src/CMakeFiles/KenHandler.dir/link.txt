@@ -1,0 +1,2 @@
+/usr/bin/ar cq /home/ken/KenHandler/lib/libKenHandler.a  CMakeFiles/KenHandler.dir/Thread.cpp.o CMakeFiles/KenHandler.dir/Queue.cpp.o CMakeFiles/KenHandler.dir/MessageListener.cpp.o CMakeFiles/KenHandler.dir/mainTest.cpp.o CMakeFiles/KenHandler.dir/Handler.cpp.o CMakeFiles/KenHandler.dir/Message.cpp.o CMakeFiles/KenHandler.dir/ThreadPool.cpp.o CMakeFiles/KenHandler.dir/Looper.cpp.o
+/usr/bin/ranlib /home/ken/KenHandler/lib/libKenHandler.a

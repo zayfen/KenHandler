@@ -48,6 +48,8 @@ MessageListener.hpp
 Thread.hpp
 /home/ken/KenHandler/src/Thread.hpp
 
+/home/ken/KenHandler/src/Message.cpp
+
 /home/ken/KenHandler/src/Message.hpp
 string
 -
@@ -57,6 +59,8 @@ string
 /home/ken/KenHandler/src/MessageListener.hpp
 Message.hpp
 /home/ken/KenHandler/src/Message.hpp
+
+/home/ken/KenHandler/src/Queue.cpp
 
 /home/ken/KenHandler/src/Thread.cpp
 Thread.hpp

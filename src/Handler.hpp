@@ -28,18 +28,18 @@ class Handler
     
     void PostMessage(const Message& message);
     
-    template<class Function, class... Args>
-    auto PostRunable(Function&& function, Args&&... args) ->
-            std::future<typename std::result_of<Function(Args...)>::type>
-    {
-        using returnType = typename std::result_of<Function(Args...)>::type;
-        auto task = std::make_shared<std::packaged_task<returnType()>>(
-            std::bind(std::forward<Function>(function), std::forward<Args>(args)...));
-        m_threadPool->Enqueue([&] {
-                (*task)();
-            });
-        return task->get_future();
-    }
+    // template<class Function, class... Args>
+    // auto PostRunable(Function&& function, Args&&... args) ->
+    //         std::future<typename std::result_of<Function(Args...)>::type>
+    // {
+    //     using returnType = typename std::result_of<Function(Args...)>::type;
+    //     auto task = std::make_shared<std::packaged_task<returnType()>>(
+    //         std::bind(std::forward<Function>(function), std::forward<Args>(args)...));
+    //     m_threadPool->Enqueue([&] {
+    //             (*task)();
+    //         });
+    //     return task->get_future();
+    // }
 
 
 
